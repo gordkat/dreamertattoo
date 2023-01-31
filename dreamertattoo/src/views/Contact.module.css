@@ -1,0 +1,25 @@
+.containerContact {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapperContact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.titleContact {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #495057;
+}
+
+.address {
+  /* margin-bottom: 40px; */
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
+}

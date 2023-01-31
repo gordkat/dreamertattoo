@@ -33,7 +33,7 @@ const Footer = () => {
         <div className={styles.wrapperNumber}>
           <span> Contact us </span>
           <a href="tel:+393405557048" className={styles.number}>
-            3405557048
+            +39 3405557048
           </a>
         </div>
       </div>

@@ -6,8 +6,13 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.containerHeader}>
         <div className={styles.logo}>
-          <a className={styles.logoLink} alt="logo">
-            <img src={dreamerLogo} />
+          <a className={styles.logoLink} arial-label="logo Dreamer Tattoo">
+            <img
+              src={dreamerLogo}
+              alt="logo Dreamer Tattoo"
+              width="394"
+              height="58"
+            />
           </a>
         </div>
         <nav>

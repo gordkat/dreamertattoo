@@ -8,8 +8,9 @@ const HomePage = () => {
         <div className={styles.cardHomeFoto}>
           <img
             src={shop3}
-            width="400px"
-            alt="shop outside"
+            width="400"
+            height="400"
+            alt="Foto of the Dreamer Tattoo studio from outside"
             className={styles.homeFoto}
           />
         </div>
@@ -25,16 +26,16 @@ const HomePage = () => {
           </p>
           <button type="button" className={styles.btnCall}>
             <a href="tel:+393405557048" className={styles.btnLink}>
-              call us
+              chiamaci
             </a>
           </button>
         </div>
         <div className={styles.cardHomeFoto}>
           <img
             src={shop1}
-            width="400px"
-            height="400px"
-            alt="shop inside"
+            width="400"
+            height="400"
+            alt="Foto of the Dreamer Tattoo studio inside"
             className={styles.homeFoto}
           />
         </div>

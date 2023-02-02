@@ -1,8 +1,8 @@
 import styles from "./Contact.module.css";
-// import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import iconFacebbok from "../images/iconFacebook.svg";
+import iconInstagram from "../images/iconInstagram.svg";
 
 const Contact = () => {
-  // const {} = useLoadScript({ googleMapsApiKey: "" });
   return (
     <main className={styles.containerContact}>
       <div className={styles.wrapperContact}>
@@ -17,14 +17,57 @@ const Contact = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-          <div>
-            <p className={styles.address}>
-              Via colombare, 3
-              <br />
-              vicino Porto Galeazzi
-              <br />
-              Sirmione, Italia
-            </p>
+          <div className={styles.wrapperDescription}>
+            <div className={styles.wrapperAddress}>
+              <h3 className={styles.title}>dreamer tattoo</h3>
+              <p className={styles.address}>
+                Sirmione
+                <br />
+                Via Colombare, n.3
+              </p>
+            </div>
+            <div className={styles.wrapperPhone}>
+              <h3 className={styles.title}>telefono</h3>
+              <a href="tel:+393405557048" className={styles.linkContact}>
+                +39 340 555 7048
+              </a>
+            </div>
+            <div className={styles.wrapperEmail}>
+              <h3 className={styles.title}>e-mail</h3>
+              <a
+                href="mailto:sirmione@dreamertattoo.it"
+                className={styles.linkContact}
+              >
+                sirmione@dreamertattoo.it
+              </a>
+            </div>
+            <div className={styles.wrapperSocial}>
+              <h3 className={styles.title}>social</h3>
+              <div className={styles.wrapperLinks}>
+                <a
+                  href="https://www.facebook.com/dreamertattoosirmione"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    // className={styles.iconSocial}
+                    src={iconFacebbok}
+                    alt="Facebbok"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/dreamer_tattoo_sirmione/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    // className={styles.iconSocial}
+                    src={iconInstagram}
+                    alt="Instagram"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

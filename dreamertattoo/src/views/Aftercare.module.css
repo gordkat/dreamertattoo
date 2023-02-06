@@ -1,15 +1,24 @@
 .containerAftercare {
   width: 1200px;
-  margin: 0 auto;
+  min-height: calc(100vh - 189px);
+  margin: 20px auto;
+  padding: 0 20px 0 20px;
 }
 
 .wrapperAftercare {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
-.aftercareTitle {
+.titleAftercare {
   margin-bottom: 20px;
+  padding-left: 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #495057;
+}
+
+.aftercareList {
   padding-left: 30px;
 }
 

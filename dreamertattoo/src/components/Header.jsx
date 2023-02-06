@@ -6,8 +6,13 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.containerHeader}>
         <div className={styles.logo}>
-          <a className={styles.logoLink} alt="logo">
-            <img src={dreamerLogo} />
+          <a className={styles.logoLink} arial-label="logo Dreamer Tattoo">
+            <img
+              src={dreamerLogo}
+              alt="logo Dreamer Tattoo"
+              width="394"
+              height="58"
+            />
           </a>
         </div>
         <nav>
@@ -19,17 +24,17 @@ const Header = () => {
             </li>
             <li>
               <Link to="/gallery" className={styles.btn}>
-                Gallery
+                Galeria
               </Link>
             </li>
             <li>
               <Link to="/aftercare" className={styles.btn}>
-                Aftercare
+                Cura del tattoo
               </Link>
             </li>
             <li>
               <Link to="/contact" className={styles.btn}>
-                Contact
+                Contatti
               </Link>
             </li>
           </ul>

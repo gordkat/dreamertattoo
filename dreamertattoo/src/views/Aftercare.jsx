@@ -18,16 +18,16 @@ const aftercareList = [
 const Aftercare = () => {
   return (
     <main className={styles.containerAftercare}>
-      <div className={styles.wrapperAftercare}>
-        <h2 className={styles.aftercareTitle}>Cura del vostro tattoo</h2>
-        <ol>
-          {aftercareList.map((aftercareItem) => (
-            <li key={aftercareItem} className={styles.aftercareItem}>
-              {aftercareItem}
-            </li>
-          ))}
-        </ol>
-      </div>
+      {/* <div className={styles.wrapperAftercare}> */}
+      <h2 className={styles.titleAftercare}>Cura del vostro tattoo</h2>
+      <ol className={styles.aftercareList}>
+        {aftercareList.map((aftercareItem) => (
+          <li key={aftercareItem} className={styles.aftercareItem}>
+            {aftercareItem}
+          </li>
+        ))}
+      </ol>
+      {/* </div>  */}
     </main>
   );
 };

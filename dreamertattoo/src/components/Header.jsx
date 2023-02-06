@@ -24,17 +24,17 @@ const Header = () => {
             </li>
             <li>
               <Link to="/gallery" className={styles.btn}>
-                Gallery
+                Galeria
               </Link>
             </li>
             <li>
               <Link to="/aftercare" className={styles.btn}>
-                Aftercare
+                Cura del tattoo
               </Link>
             </li>
             <li>
               <Link to="/contact" className={styles.btn}>
-                Contact
+                Contatti
               </Link>
             </li>
           </ul>

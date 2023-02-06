@@ -15,7 +15,7 @@ const HomePage = () => {
           />
         </div>
         <div className={styles.wrapperDescription}>
-          <h1 className={styles.homeTitle}>dreamer tattoo</h1>
+          <h1 className={styles.titleHome}>dreamer tattoo</h1>
           <p className={styles.homeDescription}>
             Dreamer Tattoo is located in the Sirmione since 2009.
             <br />

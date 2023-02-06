@@ -30,7 +30,6 @@ const Footer = () => {
             <img
               // className={styles.iconSocial}
               src={iconInstagram}
-              alt="Instagram"
               alt="Instagram link"
               width="24"
               height="24"

@@ -1,20 +1,21 @@
 .containerHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1200px;
-  margin: 0 auto;
+  min-height: calc(100vh - 189px);
+  margin: 20px auto;
+  padding: 0 20px 0 20px;
 }
 
 .wrapperFoto {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .cardHomeFoto {
   overflow: hidden;
-  width: 400px;
-  height: 400px;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
@@ -37,7 +38,7 @@
   align-items: center;
 }
 
-.homeTitle {
+.titleHome {
   margin-bottom: 30px;
   text-align: center;
   font-family: "Nunito", sans-serif;

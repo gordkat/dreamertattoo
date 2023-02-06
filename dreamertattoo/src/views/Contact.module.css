@@ -1,11 +1,11 @@
 .containerContact {
   width: 1200px;
-  margin: 0 auto;
+  min-height: calc(100vh - 189px);
+  margin: 20px auto;
+  padding: 0 20px 0 20px;
 }
 
 .wrapperContact {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .titleContact {

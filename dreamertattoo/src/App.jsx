@@ -8,6 +8,7 @@ import HomePage from "./views/HomePage";
 import Gallery from "./views/Gallery";
 import Aftercare from "./views/Aftercare";
 import Contact from "./views/Contact";
+import Tricopigmentation from "./views/Tricopigmentation";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/tricopigmentation" element={<Tricopigmentation />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/aftercare" element={<Aftercare />} />
         <Route path="/contact" element={<Contact />} />

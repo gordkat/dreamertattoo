@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css";
-import iconFacebbok from "../images/iconFacebookOutline.svg";
+import iconFacebbok from "../images/facebook.svg";
 import iconInstagram from "../images/iconInstagramOutline.svg";
 const Footer = () => {
   return (
@@ -8,6 +8,7 @@ const Footer = () => {
         <div className={styles.wrapperSocial}>
           <b>Seguici</b>
           <a
+            className={styles.socialLink}
             href="https://www.facebook.com/dreamertattoosirmione"
             target="_blank"
             rel="noopener noreferrer"
@@ -17,11 +18,12 @@ const Footer = () => {
               // className={styles.iconSocial}
               src={iconFacebbok}
               alt="Facebook link"
-              width="24"
-              height="24"
+              width="20"
+              height="20"
             />
           </a>
           <a
+            className={styles.socialLink}
             href="https://www.instagram.com/dreamer_tattoo_sirmione/"
             target="_blank"
             rel="noopener noreferrer"
@@ -31,8 +33,8 @@ const Footer = () => {
               // className={styles.iconSocial}
               src={iconInstagram}
               alt="Instagram link"
-              width="24"
-              height="24"
+              width="20"
+              height="20"
             />
           </a>
         </div>

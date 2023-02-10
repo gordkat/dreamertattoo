@@ -6,20 +6,31 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.containerHeader}>
         <div className={styles.logo}>
-          <a className={styles.logoLink} arial-label="logo Dreamer Tattoo">
+          {/* <a className={styles.logoLink} arial-label="logo Dreamer Tattoo"> */}
+          <Link
+            to="/"
+            className={styles.logoLink}
+            arial-label="logo Dreamer Tattoo"
+          >
             <img
               src={dreamerLogo}
               alt="logo Dreamer Tattoo"
               width="394"
               height="58"
             />
-          </a>
+          </Link>
+          {/* </a> */}
         </div>
         <nav>
           <ul className={styles.menu}>
             <li>
               <Link to="/" className={styles.btn}>
-                Home
+                Studio
+              </Link>
+            </li>
+            <li>
+              <Link to="/tricopigmentation" className={styles.btn}>
+                tricopigmentazione
               </Link>
             </li>
             <li>

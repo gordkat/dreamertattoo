@@ -28,16 +28,20 @@
 .menu {
   display: flex;
   justify-content: space-between;
-  gap: 16px;
   padding: 0;
 }
 
 .btn {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 8px 10px;
   font-family: "Nunito", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: uppercase;
-  color: #46494c;
-  font-weight: 300;
+  color: #6c757d;
+  font-weight: 500;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover {
+  /* color: #212529; */
+  color: #000000;
 }

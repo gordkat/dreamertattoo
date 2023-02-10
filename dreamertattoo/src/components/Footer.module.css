@@ -27,6 +27,22 @@
   gap: 6px;
 }
 
+.socialLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #1985a1;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socialLink:hover,
+.socialLink:focus {
+  background-color: #146a80;
+}
+
 .wrapperNumber {
   display: flex;
   align-items: center;
@@ -35,5 +51,5 @@
 
 .number {
   color: #f8f9fa;
-  font-weight: 500;
+  font-weight: 400;
 }

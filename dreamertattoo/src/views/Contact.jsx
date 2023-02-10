@@ -20,11 +20,16 @@ const Contact = () => {
         <address className={styles.wrapperDescription}>
           <div className={styles.wrapperAddress}>
             <h3 className={styles.title}>dreamer tattoo</h3>
-            <p className={styles.address}>
+            <a
+              href="https://www.google.com/maps/place/DREAMER+TATTOO+studio/@45.472053,10.610771,15z/data=!4m6!3m5!1s0x4781eb4ea7fec025:0x1ac3d4fc8c55025e!8m2!3d45.4728055!4d10.6105137!16s%2Fg%2F1tf6fhhd?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.address}
+            >
               Sirmione
               <br />
               Via Colombare, n.3
-            </p>
+            </a>
           </div>
           <div className={styles.wrapperPhone}>
             <h3 className={styles.title}>telefono</h3>
@@ -53,6 +58,8 @@ const Contact = () => {
                 <img
                   // className={styles.iconSocial}
                   src={iconFacebbok}
+                  width="48"
+                  height="48"
                   alt="Facebbok link"
                 />
               </a>
@@ -65,6 +72,8 @@ const Contact = () => {
                 <img
                   // className={styles.iconSocial}
                   src={iconInstagram}
+                  width="48"
+                  height="48"
                   alt="Instagram link"
                 />
               </a>

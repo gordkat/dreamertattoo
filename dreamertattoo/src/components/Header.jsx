@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 import styles from "./Header.module.css";
 import dreamerLogo from "../images/dreamerLogo12grey.png";
 const Header = () => {
@@ -6,7 +7,6 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.containerHeader}>
         <div className={styles.logo}>
-          {/* <a className={styles.logoLink} arial-label="logo Dreamer Tattoo"> */}
           <Link
             to="/"
             className={styles.logoLink}
@@ -19,9 +19,8 @@ const Header = () => {
               height="58"
             />
           </Link>
-          {/* </a> */}
         </div>
-        <nav>
+        <nav className={styles.wrapperNav}>
           <ul className={styles.menu}>
             <li>
               <Link to="/" className={styles.btn}>
@@ -49,6 +48,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
+          <Navbar />
         </nav>
       </div>
     </header>

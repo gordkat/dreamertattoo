@@ -1,0 +1,30 @@
+.containerGallery {
+  width: 100%;
+  min-height: calc(100vh - 140px);
+  padding: 20px 20px 20px 20px;
+}
+
+@media screen and (min-width: 620px) {
+  .containerGallery {
+    /* max-width: 860px; */
+    width: calc(100% - 40px);
+    min-height: calc(100vh - 180px);
+    margin: 0 auto;
+  }
+}
+
+.titleGallery {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #495057;
+}
+
+@media screen and (min-width: 620px) {
+  .titleGallery {
+    font-size: 24px;
+  }
+}

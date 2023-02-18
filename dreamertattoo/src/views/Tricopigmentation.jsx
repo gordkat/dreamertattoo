@@ -1,7 +1,9 @@
 import styles from "./Tricopigmentation.module.css";
 
 const Tricopigmentation = () => {
-  return <div>tricopigmentation</div>;
+  return (
+    <main className={styles.containerTricopigmentation}>Tricopigmentation</main>
+  );
 };
 
 export default Tricopigmentation;

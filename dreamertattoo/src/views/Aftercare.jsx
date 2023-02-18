@@ -3,7 +3,7 @@ const aftercareList = [
   "Aspettare 4 ore prima di levare il bendaggio",
   "Lavarsi sempre accuratamente le mani prima di toccare il tattoo",
   "Distribuire un sottile strato di crema (consigliata BEPANTHENOL, la trovi in farmacia)",
-  "Nei successivi 15giorni continuare ad applicare la crema ogni 3 ore circa",
+  "Nei successivi 15 giorni continuare ad applicare la crema ogni 3 ore circa",
   "Lavare una volta al giorno con un sapone intimo neutro",
   "Asciugare senza strofinare, tamponando con un asciugamano pulito e morbido",
   "Indossare indumenti di cotone",
